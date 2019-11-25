@@ -19,7 +19,7 @@ namespace spel
             start = Environment.TickCount;
         }
     
-        // hämtar TickCount för spelarens stopp-signal
+        // hämtar TickCount för spelarens stopp-signal 
         public void StoppaSpelet() {
             stopp = Environment.TickCount;
         }

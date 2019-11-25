@@ -8,7 +8,7 @@ namespace spel.test
         [Fact]
         public void InitConstructor() 
         {
-            // arrange-section - testdata
+            // arrange-section - testdata 
             var testobj1 = new cSpel();
 
             // act-section - test-case
