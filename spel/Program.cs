@@ -11,7 +11,7 @@ namespace spel
             cSpel spelare = new cSpel();
 
             // 
-            Console.WriteLine("Vänta på texten 'Tryck' innan du trycker");
+            Console.WriteLine("Vänta på texten 'Tryck' innan du trycker"); 
 
             // slumpvis fördröjning för att testa reaktionen
             spelare.SlumpvisDelay();
@@ -21,7 +21,7 @@ namespace spel
 
             // kontroll att spelaren inte tjuvstartat
             // läs in tecken från indata-strömmen
-            if (Console.KeyAvailable == true) {
+            if (Console.KeyAvailable) {
                 Console.WriteLine("Hallå där, du försöker fuska!! Börja om.");
                 ConsoleKeyInfo rensaPipen = Console.ReadKey();
                 return;
