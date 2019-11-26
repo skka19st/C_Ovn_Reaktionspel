@@ -8,12 +8,12 @@ namespace spel.test
         [Fact]
         public void InitConstructor() 
         {
-            // arrange-section - testdata 
+            // arrange - testdata 
             var testobj1 = new cSpel();
 
-            // act-section - test-case
+            // act - test-case
 
-            // assert-section - test av påstående
+            // assert - säkerställa resultat
             // förväntat värde, faktiskt värde
             Assert.NotNull(testobj1);
         }
